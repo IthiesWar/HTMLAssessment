@@ -1,0 +1,103 @@
+<html>
+    <title>
+        form
+    </title>
+    <body>
+        <h1>Form creation</h1>
+        <form enctype="multipart/form-data">
+            <!-- name -->
+            <p>
+                <label for="">name:</label><br><input type="text" placeholder="enter your name">
+            </p>
+
+            <p>
+                <label for="">mail:</label><br>
+                <input type="text" placeholder="enter your mail">
+            </p>
+            <p>
+               <label for="">subject:</label> <br>
+                <input type="text" placeholder="enter your subject">
+            </p>
+            <!-- text area -->
+            <p>
+                <label for="">Messgae:</label><br>
+                <textarea name="Enter your cmt" id="" cols="30" rows="10" placeholder="enter your message"></textarea>
+            </p>
+            <!-- rqdio -->
+            <p>
+               <label for="">Gender :</label> 
+                <input type="radio" name="gender" value="male" id="male"><label for="male">male</label>
+                <input type="radio" name="gender" value="female" id="female"><label for="female">female</label>
+            </p>
+            <!-- option -->
+            <p>
+               <label for="">Game:</label> <br>
+                <select name="game" id="">
+                    <option value="">select</option>
+                    <option value="cricket">cricket</option>
+                    <option value="football">football</option>
+                </select>
+            </p>
+            <!-- File -->
+            <p>
+                <label for="">resume:</label><br>
+                <input type="file" name="resume">
+            </p>
+            <!-- Email -->
+            <p>
+                <label for="email1">Emil</label><br>
+                <input type="email" name="email" id="email1" required>
+            </p>
+            <!--Age-->
+            <p>
+                <label for="age">age</label><br>
+                <input type="number" name="age" id="age" min="1">
+            </p>
+            <!-- Date -->
+            <p>
+                <label for="dob">Date of birth</label><br>
+                <input type="date" name="date" id="date">
+            </p>
+            <!-- range -->
+            <p>
+                <label for="range">Range:</label><br>
+                <input type="range" name="range" id="range" min="0" max="99" step="10">
+            </p>
+            <!-- url -->
+            <p>
+                <label for="url">url:</label><br>
+                <input type="url" name="url" id="url" required>
+            </p>
+            <!-- time -->
+            <p>
+                <label for="time">time:</label><br>
+                <input type="time" name="time" id="time">
+            </p>
+            <!-- week -->
+            <p>
+                <label for="week">week:</label><br>
+                <input type="week" name="week" id="week">
+            </p>
+            <!-- search -->
+            <p>
+                <label for="search">Search:</label><br>
+                <input type="search" name="search" id="search">
+            </p>
+            <!-- colour picker -->
+            <p>
+                <label for="colour">colour</label>
+                <input type="color" name="colour" id="colour">
+            </p>
+            <!-- button -->
+            <p>
+                
+                <input type="submit"><label for="btn">Button</label><br>
+            </p>
+           <!-- button -->
+            <p>
+                <input type="button" value="send Messgae">
+            </p>
+           
+        </form>
+    </body>
+</html>
